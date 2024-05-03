@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="671.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="searchController">
+   <children>
+      <Label layoutY="-6.0" prefHeight="59.0" prefWidth="671.0" style="-fx-background-color: #ffe400;" text="Enter Location">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtSearch" layoutX="196.0" layoutY="11.0" prefHeight="26.0" prefWidth="251.0" />
+      <Button layoutX="483.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnSearch" prefHeight="26.0" prefWidth="106.0" text="Search" />
+      <TableView fx:id="tableview" layoutY="52.0" prefHeight="478.0" prefWidth="671.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

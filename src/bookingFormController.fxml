@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="724.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookngFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="-1.0" prefHeight="58.0" prefWidth="724.0" style="-fx-background-color: yellow;" text="Booking Form">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="75.0" text="Client Name" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtClientName" layoutX="131.0" layoutY="76.0" />
+      <Button layoutX="136.0" layoutY="343.0" mnemonicParsing="false" onAction="#btnSave" prefHeight="58.0" prefWidth="139.0" text="Book Now" />
+      <TextField fx:id="txtEmail" layoutX="131.0" layoutY="141.0" prefHeight="26.0" prefWidth="210.0" />
+      <Label layoutX="78.0" layoutY="141.0" text="Email" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="185.0" text="Phone" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPhone" layoutX="131.0" layoutY="185.0" prefHeight="26.0" prefWidth="210.0" />
+      <Label layoutX="56.0" layoutY="223.0" text="Address" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtCAddress" layoutX="131.0" layoutY="223.0" prefHeight="90.0" prefWidth="210.0" />
+      <Label layoutX="374.0" layoutY="75.0" text="Property Name" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPropertyName" layoutX="504.0" layoutY="76.0" />
+      <Button layoutX="658.0" layoutY="76.0" mnemonicParsing="false" onAction="#btnPropertySearch" text="Search" />
+      <Label layoutX="380.0" layoutY="140.0" text="Property Type" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPropertyType" layoutX="500.0" layoutY="140.0" prefHeight="26.0" prefWidth="210.0" />
+      <TextField fx:id="txtLocation" layoutX="502.0" layoutY="183.0" prefHeight="26.0" prefWidth="210.0" />
+      <Label layoutX="422.0" layoutY="182.0" text="Location" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="223.0" text="Address" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtPAddress" layoutX="502.0" layoutY="228.0" prefHeight="90.0" prefWidth="210.0" />
+      <Button layoutX="299.0" layoutY="76.0" mnemonicParsing="false" onAction="#btnClientSearch" text="Search" />
+      <Label layoutX="448.0" layoutY="342.0" text="Price" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPrice" layoutX="500.0" layoutY="343.0" prefHeight="26.0" prefWidth="210.0" />
+   </children>
+</AnchorPane>
